@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fundamentos - Justify content</title>
+    <style media="screen">
+      .container{
+        max-width: 400px;
+        border: 2px solid black;
+        margin: 0;
+        display: flex;
+      }
+
+      .item{
+        background-color: blueviolet;
+        margin: 5px;
+        text-align: center;
+        color: white;
+      }
+
+      .flex-start{
+        Justify-content: flex-start;
+      }
+
+      }
+      .flex-end{
+        Justify-content: flex-end;
+      }
+
+      .flex-center{
+        justify-content: center;
+      }
+
+      .space-between{
+        justify-content: space-between;
+      }
+
+      .space-around{
+        justify-content: space-around
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Flex Start</h1>
+    <section class="container flex-start">
+      <div class="item">1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Outro item</div>
+    </section>
+
+    <h1>Flex End</h1>
+    <section class="container flex-end">
+      <div class="item">1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Outro item</div>
+    </section>
+
+    <h1>Center</h1>
+    <section class="container flex-center">
+      <div class="item">1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Outro item</div>
+    </section>
+
+    <h1>Space Between</h1>
+    <section class="container space-between">
+      <div class="item">1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Outro item</div>
+    </section>
+
+    <h1>Space Around</h1>
+    <section class="container space-around">
+      <div class="item">1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Outro item</div>
+    </section>
+
+
+  </body>
+</html>
